@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: MS4-quartz-scheduler
+
+email:
+  service:
+    url: http://localhost:9090/api/email/send
+
+scheduler:
+  email:
+    interval-seconds: 30
+
+server:
+  port: 9091
