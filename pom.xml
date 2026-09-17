@@ -16,6 +16,7 @@
         <module>MS3-spring-email-service</module>
         <module>spring-eureka-server</module>
         <module>spring-eureka-producer</module>
+        <module>spring-eureka-consumer</module>
         <module>MS4-quartz-scheduler</module>
     </modules>
 </project>

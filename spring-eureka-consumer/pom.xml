@@ -8,10 +8,10 @@
 		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.eureka</groupId>
-	<artifactId>spring-eureka-server</artifactId>
+	<groupId>com.eureka.consumer</groupId>
+	<artifactId>spring-eureka-consumer</artifactId>
 	<version>1.0</version>
-	<name>spring-cloud-eureka-server</name>
+	<name>spring-cloud-eureka-consumer(DiscoveryClient)</name>
 	<description/>
 	<url/>
 	<licenses>
@@ -32,13 +32,17 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webmvc</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
+			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

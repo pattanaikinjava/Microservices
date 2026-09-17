@@ -8,7 +8,7 @@ spring:
 server:
     port: 8761
 
-#Disable SELF REGISTER in Eureka  server
+#Disable SELF REGISTER in Eureka server
 eureka:
   client:
     register-with-eureka: false

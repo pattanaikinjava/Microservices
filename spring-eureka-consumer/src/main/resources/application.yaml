@@ -1,0 +1,16 @@
+# Service Instance SID
+spring:
+  application:
+    name: spring-eureka-consumer
+
+server:
+  port: 8082
+
+# Eureka client configuration
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:8761/eureka/
+  producer:
+    path: verify
+    serviceId: spring-eureka-producer
