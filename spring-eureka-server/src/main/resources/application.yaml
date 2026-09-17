@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-eureka-server
+
+  profiles:
+    active: dev
+# Eureka server port configuration
+server:
+    port: 8761
+
+#Disable SELF REGISTER in Eureka  server
+eureka:
+  client:
+    register-with-eureka: false
+#DO NOT fetch the REGISTRY from Eureka server
+    fetch-registry: false
+

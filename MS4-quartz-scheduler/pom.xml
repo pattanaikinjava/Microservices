@@ -8,10 +8,10 @@
 		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.job.cron-schedular.</groupId>
+	<groupId>com.job.cron-schedular</groupId>
 	<artifactId>MS4-quartz-scheduler</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name/>
+	<version>1.0</version>
+	<name>cronjobs-quartz-scheduler</name>
 	<description/>
 	<url/>
 	<licenses>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.microservices</groupId>
+    <artifactId>microservices-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Microservices Parent</name>
+    <description>Parent Maven project for all Spring Boot microservices in the repository.</description>
+
+    <modules>
+        <module>MS3-spring-email-service</module>
+        <module>spring-eureka-server</module>
+        <module>spring-eureka-producer</module>
+        <module>MS4-quartz-scheduler</module>
+    </modules>
+</project>
