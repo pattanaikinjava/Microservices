@@ -3,10 +3,10 @@ spring:
     name: MS3-spring-mail-appender
 
   mail:
-    host:
-    port:
-    username:
-    password:
+    host: smtp.gmail.com
+    port: 587
+    username: pattanaikdebasnana@gmail.com
+    password: aredecmnjmycwymg
     properties:
       mail:
         smtp:
