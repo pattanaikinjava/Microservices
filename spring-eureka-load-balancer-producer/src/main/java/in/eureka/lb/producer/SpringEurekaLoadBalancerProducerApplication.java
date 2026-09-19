@@ -1,0 +1,13 @@
+package in.eureka.lb.producer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringEurekaLoadBalancerProducerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringEurekaLoadBalancerProducerApplication.class, args);
+	}
+
+}

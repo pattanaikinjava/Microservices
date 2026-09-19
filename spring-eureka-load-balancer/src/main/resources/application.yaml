@@ -1,0 +1,14 @@
+# eureka service details SID
+spring:
+  application:
+    name: spring-eureka-load-balancer
+
+#server configurations
+server:
+  port: 8761
+#eureka client configurations
+eureka:
+  client:
+    registry-with-eureka: false
+    fetch-registry: false
+

@@ -13,10 +13,17 @@
     <description>Parent Maven project for all Spring Boot microservices in the repository.</description>
 
     <modules>
-        <module>MS3-spring-email-service</module>
+        <!-- eureka server (discovery client)-->
         <module>spring-eureka-server</module>
         <module>spring-eureka-producer</module>
         <module>spring-eureka-consumer</module>
+
+        <!-- eureka server (loadbalancer client)-->
+        <module>spring-eureka-load-balancer</module>
+        <module>spring-eureka-load-balancer-producer</module>
+        <module>spring-eureka-load-balancer-consumer</module>
+
+        <module>MS3-spring-email-service</module>
         <module>MS4-quartz-scheduler</module>
     </modules>
 </project>

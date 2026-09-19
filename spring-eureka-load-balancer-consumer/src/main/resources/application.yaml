@@ -1,0 +1,18 @@
+#eureka service details ServiceInstance SID
+spring:
+  application:
+    name: spring-eureka-load-balancer-consumer(CONTRACT SERVICE)
+
+#server configurations
+server:
+  port: 8082
+
+#eureka client configurations
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+  service:
+    name: spring-eureka-load-balancer-producer(QUOTE SERVICE)
+    path: /v1/quote/get
